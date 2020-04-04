@@ -16,10 +16,10 @@
     <nav>
       <ul>
         <li><a href="../controler/page_daccueil.ctrl.php"><i class="fa fa-home"></i></a></li>
-        <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][0]->getID()?>"><ul>CAT 1</ul></a></li>
-        <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][9]->getID()?>"><ul>CAT 2</ul></a></li>
-        <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][3]->getID()?>"><ul>CAT 3</ul></a></li>
-        <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][1]->getID()?>"><ul>CAT 4</ul></a></li>
+        <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][0]->getID()?>"><ul>Vestes</ul></a></li>
+        <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][1]->getID()?>"><ul>Maillots</ul></a></li>
+        <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][2]->getID()?>"><ul>Chaussettes</ul></a></li>
+        <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][3]->getID()?>"><ul>Chaussures</ul></a></li>
       </ul>
     </nav>
   </header>
@@ -36,7 +36,7 @@
                 <h2><?= $article->getTitle()?></h2>
                 <p> Ref : N00<?= $article->getID()?></p>
                 <p><?= $article->getDescription() ?></p>
-                <h3>€<?= $article->getPrice()?>.00 / Unite</h3>
+                <h3>€<?= $article->getPrice()?> / Unite</h3>
               </div>
             </div>
           <?php

@@ -14,10 +14,10 @@
     <header>
       <nav>
           <ul>
-            <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][0]->getID()?>">CAT 1</li></a>
-            <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][9]->getID()?>">CAT 2</li></a>
-            <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][3]->getID()?>">CAT 3</li></a>
-            <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][1]->getID()?>">CAT 4</li></a>
+            <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][0]->getID()?>">Vestes</li></a>
+            <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][1]->getID()?>">Maillots</li></a>
+            <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][2]->getID()?>">Chaussettes</li></a>
+            <li><a href="../controler/produits.ctrl.php?category=<?= $this->param['categories'][3]->getID()?>">Chaussures</li></a>
           </ul>
       </nav>
       <div class="top">
